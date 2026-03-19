@@ -4,7 +4,7 @@ import { motion, useScroll, useTransform } from 'framer-motion'
 import { ArrowRight, MapPin, Star } from 'lucide-react'
 import gsap from 'gsap'
 
-const services = ['Photocopy', 'Printing', 'Typing', 'Scanning', 'Lamination', 'Graphic Design', 'Photo Editing', 'Video Editing']
+const services = ['Photocopy', 'Printing', 'Typing', 'Scanning', 'Lamination', 'Graphic Design', 'Photo Editing']
 
 export default function Hero() {
   const containerRef = useRef<HTMLDivElement>(null)
@@ -95,7 +95,7 @@ export default function Hero() {
               transition={{ duration: 0.8, delay: 0.9 }}
               className="text-lg text-muted font-light leading-relaxed max-w-md mb-10"
             >
-              From quick photocopies to professional video editing —{' '}
+              From quick photocopies to professional photo editing —{' '}
               <span className="font-medium text-ink">Madhur Photocopy&amp; Typing</span>{' '}
               delivers quality work, on time, every time.
             </motion.p>

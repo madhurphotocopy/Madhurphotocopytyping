@@ -26,8 +26,8 @@ const milestones = [
   },
   {
     year: 'Digital',
-    title: 'Photo & Video Editing',
-    desc: 'The shop expands into digital services — photo retouching, background removal, reels, and wedding video editing.',
+    title: 'Photo Editing',
+    desc: 'The shop expands into digital services — photo retouching, background removal.',
     side: 'right',
   },
   {

@@ -6,7 +6,7 @@ import { Clock, Star, Layers, SmilePlus } from 'lucide-react'
 const reasons = [
   { icon: Star, title: 'Perfect 5.0 Rating', desc: 'Every single customer has rated us 5 stars on Google — consistency is our superpower.' },
   { icon: Clock, title: 'Fast Turnaround', desc: 'Simple jobs done while you wait. Larger projects delivered on schedule, every time.' },
-  { icon: Layers, title: 'All Under One Roof', desc: 'Photocopy to video editing — no need to visit multiple shops. We handle everything.' },
+  { icon: Layers, title: 'All Under One Roof', desc: 'Photocopy to photo editing — no need to visit multiple shops. We handle everything.' },
   { icon: SmilePlus, title: 'Friendly & Professional', desc: 'Well-behaved, patient, and genuinely helpful. Customers keep coming back for a reason.' },
 ]
 
@@ -20,7 +20,7 @@ const hours = [
   { day: 'Sunday',    time: 'Closed', closed: true },
 ]
 
-const marqueeItems = ['Photocopy', 'Typing', 'Scanning', 'Lamination', 'Graphic Design', 'Photo Editing', 'Video Editing', 'Form Filling', 'Best in Indore', '5 Star Rated']
+const marqueeItems = ['Photocopy', 'Typing', 'Scanning', 'Lamination', 'Graphic Design', 'Photo Editing', 'Form Filling', 'Best in Indore', '5 Star Rated']
 
 export default function WhyUs() {
   const sectionRef = useRef<HTMLDivElement>(null)

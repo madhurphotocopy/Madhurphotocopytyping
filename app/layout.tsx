@@ -19,7 +19,7 @@ const playfair = Playfair_Display({
 export const metadata: Metadata = {
   title: 'Madhur Photocopy & Typing – Indore',
   description:
-    'Professional photocopy, printing, typing, scanning, lamination, graphic design, and photo/video editing services in Indore. Rated 5★ on Google.',
+    'Professional photocopy, printing, typing, scanning, lamination, graphic design, and photo editing services in Indore. Rated 5★ on Google.',
   keywords: 'photocopy indore, typing indore, lamination, graphic design, scanning, annapurna road',
   openGraph: {
     title: 'Madhur Photocopy & Typing – Indore',
