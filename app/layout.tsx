@@ -109,10 +109,9 @@ export const metadata: Metadata = {
     },
   },
   verification: {
-    google: 'NByCqQoMjA8jfT5A-1PpRK3K6QuoeOXKa4YB7SPVqY0E',
+    google: 'r3anZaFa4i28_Rt6XA6K-hdxR4La5are8DJ1Nl0BrFk',
   },
 }
-
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
