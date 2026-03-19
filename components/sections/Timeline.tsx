@@ -9,25 +9,25 @@ const milestones = [
   {
     year: 'Day 1',
     title: 'The Shop Opens',
-    desc: 'Madhur Photocopy& Typing opens its doors on Annapurna Road, Indore — with a simple promise: quality service, every time.',
+    desc: 'Madhur Photocopy& Typing opens its doors on Annapurna Road, Indore  with a simple promise: quality service, every time.',
     side: 'left',
   },
   {
     year: 'Growing',
     title: 'More Services Added',
-    desc: 'Customer demand leads to scanning, lamination, and form-filling services — becoming a complete document hub.',
+    desc: 'Customer demand leads to scanning, lamination, and form filling services becoming a complete document hub.',
     side: 'right',
   },
   {
-    year: 'Creative',
-    title: 'Graphic Design Launched',
-    desc: 'Graphic design services go live — visiting cards, banners, and pamphlets now designed in-house with professional tools.',
-    side: 'left',
-  },
+  year: 'Creative',
+  title: 'Advanced Photoshop Editing',
+  desc: 'Expert-level Adobe Photoshop editing goes live background removal, photo restoration, colour grading and passport photos now done professionally in-house.',
+  side: 'left',
+},
   {
     year: 'Digital',
     title: 'Photo Editing',
-    desc: 'The shop expands into digital services — photo retouching, background removal.',
+    desc: 'The shop expands into digital services photo retouching, background removal.',
     side: 'right',
   },
   {
