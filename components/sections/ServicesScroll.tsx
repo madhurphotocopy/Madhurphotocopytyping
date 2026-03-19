@@ -4,7 +4,6 @@ import { motion } from 'framer-motion'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { Copy, Type, Scan, Layers, FileCheck, Landmark, Wand2, FileSpreadsheet } from 'lucide-react'
-import { Copy, Type, Scan, Layers, FileCheck, Landmark, Wand2, FileSpreadsheet } from 'lucide-react'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -23,7 +22,6 @@ const services = [
     name: 'Typing & Document Work',
     desc: 'Professional Hindi & English typing for official and personal documents.',
     features: ['Hindi & English typing', 'Affidavits & letters', 'Certificates', 'Accurate & fast'],
-    features: ['Hindi & English typing', 'Affidavits & letters', 'Certificates', 'Accurate & fast'],
     color: 'from-blue-50 to-indigo-50',
     accent: '#1a56a6',
     num: '02',
@@ -32,7 +30,6 @@ const services = [
     icon: Scan,
     name: 'Scanning',
     desc: 'High-resolution scanning for documents, certificates, and photos.',
-    features: ['High resolution', 'PDF & image formats', 'Document digitisation', 'Email delivery'],
     features: ['High resolution', 'PDF & image formats', 'Document digitisation', 'Email delivery'],
     color: 'from-teal-50 to-emerald-50',
     accent: '#0f7d6e',
@@ -43,18 +40,11 @@ const services = [
     name: 'Lamination',
     desc: 'Protect documents, ID cards, and certificates with professional lamination.',
     features: ['Gloss & matte finish', 'All sizes available', 'ID cards & certs', 'Neat & durable'],
-    features: ['Gloss & matte finish', 'All sizes available', 'ID cards & certs', 'Neat & durable'],
     color: 'from-violet-50 to-purple-50',
     accent: '#7c3aed',
     num: '04',
   },
   {
-    icon: Wand2,
-    name: 'Advanced Photoshop Editing',
-    desc: 'Expert-level Adobe Photoshop editing — professional results for any photo or design need.',
-    features: ['Background removal', 'Photo restoration', 'Colour grading', 'Passport & ID photos'],
-    color: 'from-pink-50 to-fuchsia-50',
-    accent: '#9d174d',
     icon: Wand2,
     name: 'Advanced Photoshop Editing',
     desc: 'Expert-level Adobe Photoshop editing — professional results for any photo or design need.',
@@ -83,11 +73,6 @@ const services = [
   },
   {
     icon: FileCheck,
-    name: 'Form Filling & Applications',
-    desc: 'Expert help filling official forms, applications, and online submissions.',
-    features: ['Online applications', 'Scholarship forms', 'Job applications', 'Quick & accurate'],
-    color: 'from-sky-50 to-cyan-50',
-    accent: '#0369a1',
     name: 'Form Filling & Applications',
     desc: 'Expert help filling official forms, applications, and online submissions.',
     features: ['Online applications', 'Scholarship forms', 'Job applications', 'Quick & accurate'],
@@ -173,14 +158,8 @@ export default function ServicesScroll() {
               className="service-card-item flex-shrink-0 w-[300px] md:w-[340px] flex flex-col justify-between bg-surface border border-[#e5e2d9] rounded-3xl p-8 my-12 group hover:shadow-2xl hover:shadow-black/5 hover:-translate-y-2 transition-all duration-500 cursor-default overflow-hidden relative"
             >
               {/* BG gradient on hover */}
-              {/* BG gradient on hover */}
               <div className={`absolute inset-0 bg-gradient-to-br ${svc.color} opacity-0 group-hover:opacity-60 transition-opacity duration-500 rounded-3xl`} />
 
-              {/* Top accent bar */}
-              <div
-                className="absolute top-0 left-0 right-0 h-1 rounded-t-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"
-                style={{ background: svc.accent }}
-              />
               {/* Top accent bar */}
               <div
                 className="absolute top-0 left-0 right-0 h-1 rounded-t-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"
@@ -189,10 +168,6 @@ export default function ServicesScroll() {
 
               <div className="relative z-10">
                 <div className="flex items-start justify-between mb-8">
-                  <div
-                    className="w-14 h-14 rounded-2xl flex items-center justify-center"
-                    style={{ background: `${svc.accent}15` }}
-                  >
                   <div
                     className="w-14 h-14 rounded-2xl flex items-center justify-center"
                     style={{ background: `${svc.accent}15` }}
